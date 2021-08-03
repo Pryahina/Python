@@ -1,3 +1,5 @@
-n = int(input("Введите число n:"))
-sum = n + (n * 10 + n) + (n * 100 + n * 10 + n)
-print(f"{n} + {n}{n} + {n}{n}{n} = {sum}")
+n1 = int(input("Введите число n:"))
+n2 = int(f"{n1}{n1}")
+n3 = int(f"{n1}{n1}{n1}")
+sum = n1 + n2 + n3
+print(f"{n1} + {n2} + {n3} = {sum}")
